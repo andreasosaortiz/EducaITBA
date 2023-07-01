@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="./css/main.css" type="text/css">
+</head>
+
+<body>
+    <header></header>
+
+    <main>
+        <section id="formulario">
+            <form action='./materias/index.html' id='form'>
+                <div id="ctn-img">
+                    <img src="./img/pluma-isologo.png" class="isotipo">
+                </div>
+                <label for="usuario">Usuario/DNI</label>
+                <input type="text" id="usuario" placeholder="usuario..." name="usuario" class="entrada-form">
+                <label for="contraseña">Contraseña</label>
+                <input type="password" id="contraseña" placeholder="contraseña..." class="entrada-form">
+                <p id="olvcontraseña">¿Olvidaste tu contraseña?</p>
+                <button id="ingresar-btn">Ingresar</button>
+                <div id="botones-ocultos">
+                    <hr>
+                    <button>Intraconsulta</button>
+                    <button>Historico</button>
+                    <button>Ingresantes</button>
+                </div>
+            </form>
+        </section>
+        <section id="side-bar">
+            <div id="ctn-btn">
+                <button>Intraconsulta</button>
+                <button>Historico</button>
+                <button>Ingresantes</button>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="./js/form.js"></script>
+
+</body>
+
+</html>

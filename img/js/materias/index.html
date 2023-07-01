@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang='es'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Materias</title>
+    <link rel='stylesheet'
+        href='https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200'>
+    <link rel='stylesheet' href='../css/global.css'>
+    <link rel='stylesheet' href='../css/materias.css'>
+</head>
+
+<body>
+    <main class='main'>
+        <nav class='nav'>
+            <svg class='nav__icon' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'>
+                <path fill-rule='evenodd'
+                    d='M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z' />
+            </svg>
+            <div class='nav__content'>
+                <div class='nav__div'>
+                    <img class='nav__logo' src='../img/pluma-isologo.png' alt='Logo'>
+                </div>
+                <div class='nav__div'>
+                    <ul class='nav__ul'>
+                        <li class='nav__li'>
+                            <a class='nav__link' href=''>
+                                <h2 class='nav__title'>Inicio</h2>
+                                <svg class='nav__svg' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'>
+                                    <path
+                                        d='M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z' />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class='nav__li'>
+                            <a class='nav__link' href=''>
+                                <h2 class='nav__title'>Noticias</h2>
+                                <svg class='nav__svg' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'>
+                                    <path
+                                        d='M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z' />
+                                    <path
+                                        d='M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z' />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class='nav__li'>
+                            <a class='nav__link' href=''>
+                                <h2 class='nav__title'>Tutoriales</h2>
+                                <svg class='nav__svg' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'>
+                                    <path
+                                        d='M6 10.117V5.883a.5.5 0 0 1 .757-.429l3.528 2.117a.5.5 0 0 1 0 .858l-3.528 2.117a.5.5 0 0 1-.757-.43z' />
+                                    <path
+                                        d='M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4zm0 1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z' />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class='nav__li'>
+                            <a class='nav__link' href=''>
+                                <h2 class='nav__title'>Preguntas</h2>
+                                <svg class='nav__svg' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'>
+                                    <path d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z' />
+                                    <path
+                                        d='M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z' />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class='nav__div'>
+                    <div class='wrapper'>
+                        <header>
+                            <p class='current-date'></p>
+                            <div class='icons'>
+                                <span id='prev' class='material-symbols-rounded'>chevron_left</span>
+                                <span id='next' class='material-symbols-rounded'>chevron_right</span>
+                            </div>
+                        </header>
+                        <div class='calendar'>
+                            <ul class='weeks'>
+                                <li>Lun</li>
+                                <li>Mar</li>
+                                <li>Mie</li>
+                                <li>Jue</li>
+                                <li>Vie</li>
+                                <li>Sab</li>
+                                <li>Dom</li>
+                            </ul>
+                            <ul class='days'></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class='content'>
+            <header class="cabecera">
+                <div>
+                    <h3>Juan Pérez</h3>
+                        <button class="btn-header"><a class='btn-link' href="../index.html">Cerrar sesión</a></button>
+                        <button class="btn-header"><a class='btn-link' href="../perfil/index.html">Mi perfil</a></button>
+                </div>
+                <img id="img-perfil" src="../img/usuario.png" alt="usuario">
+            </header>
+            <div id="container_organizar">
+                <button id="btn-organizar">Organizar materias</button>
+            </div>
+            <h2 class='content__title'>Mis materias activas</h2>
+            <div class='materias'>
+                <!-- Contenido generado por materias.js -->
+            </div>
+        </section>
+    </main>
+    <script src='../js/main.js'></script>
+    <script src='../js/calendario.js'></script>
+    <script src='../js/materias.js'></script>
+</body>
+
+</html>

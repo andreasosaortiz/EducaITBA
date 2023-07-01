@@ -1,0 +1,129 @@
+.materias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+.materia {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    background: var(--secondary-bg);
+    padding: 1rem;
+}
+
+.materia__buttons {
+    order: 2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.materia__link {
+    text-decoration: none;
+    width: calc(100% / 2 - 1rem);
+}
+
+.materia__button {
+    cursor: pointer;
+    color: #000;
+    fill: #000;
+    width: 100%;
+    padding: .5rem 0;
+    border-radius: 10px;
+    border: none;
+}
+
+.materia__icon {
+    width: 25px;
+    height: 25px;
+}
+
+.materia__text {
+    font-size: .8rem;
+}
+
+.materia__titles {
+    order: 1;
+}
+
+.materia__title {
+    font-weight: 400;
+    font-size: 1.7rem;
+    color: #000;
+}
+
+.materia__subtitle {
+    font-weight: 400;
+    margin-top: .2rem;
+    font-size: 1.5rem;
+    color: var(--primary-bg);
+}
+
+.mataria__link {
+    text-decoration: none;
+}
+
+
+@media (min-width: 768px) {
+
+    .materias {
+        justify-content: stretch;
+        align-items: stretch;
+        flex-direction: row;
+        padding: 0 1rem;
+    }
+
+    .materia {
+        margin: 0;
+    }
+
+    .materia__link {
+        width: calc(100% / 2 - 1rem);
+    }
+
+    .materia__titles {
+        order: 3;
+    }
+
+    .materia__title {
+        font-size: 1.4rem;
+    }
+
+    .materia__subtitle {
+        font-size: 1.2rem;
+    }
+
+}
+
+#container_organizar {
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+#btn-organizar {
+    margin: 2rem 2rem 0 0;
+    background-color: #cdcdcd;
+    border: none;
+    padding: 0.7rem;
+    border-radius: 8px;
+}
+
+#btn-organizar:hover {
+    background-color: #b8b8b8;
+}
+
+
+.materia__button:hover {
+    transform: translateY(-5px);
+    transition: transform 0.4s ease-in-out;
+}

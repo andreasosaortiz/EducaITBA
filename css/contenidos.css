@@ -1,0 +1,20 @@
+#teoria{
+    width: 90%;
+    height: fit-content;
+}
+
+#teoria div{
+    margin: 2%;
+}
+#teoria div h5{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.list-group{
+    background-color: #715AFF !important;
+}
+svg{
+    right: 20px;
+    position: absolute;
+}
+li{position: relative;
+}

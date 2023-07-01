@@ -1,0 +1,135 @@
+/* ---------------------------------------- */
+
+.perfil {
+    padding: 1rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.perfil__left {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.perfil__right {
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.perfil__img {
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px -3px #0000001a;
+    width: 70%;
+    margin-bottom: .5rem;
+}
+
+/* ---------------------------------------- */
+
+.button {
+    border-radius: 10px;
+    border: none;
+    padding: .25rem 0;
+    font-size: 1rem;
+    width: 70%;
+}
+
+/* ---------------------------------------- */
+
+.card {
+    width: 100%;
+    background: #F5F5F5;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.card__title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card__content {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.card__info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    color: #333333;
+}
+
+.card__label {
+    color: #333333;
+    font-size: .9rem;
+}
+
+.card__input {
+    cursor: auto;
+    color: #333333;
+    border: none;
+    border-bottom: 1px solid #333333;
+    background: none;
+    padding: .5rem;
+    font-size: 1rem;
+}
+
+.card__input:focus {
+    outline: none;
+}
+
+/* ---------------------------------------- */
+
+@media (min-width: 768px) {
+
+    .perfil {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .perfil__left {
+        width: 50%;
+    }
+
+    .perfil__right {
+        margin-top: 0;
+        width: 50%;
+    }
+
+    .perfil__img {
+        width: 50%;
+    }
+
+    .button {
+        width: 50%;
+    }
+
+    /* ---------------------------------------- */
+
+    .card__title {
+        font-size: 1.3rem;
+    }
+
+    .card__content {
+        margin-top: 1rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .card__info {
+        width: 45%;
+    }
+
+}
